@@ -48,7 +48,6 @@ If you are using npm:
 Once you have completed the installation steps, follow the instructions below to run the application on your local machine.
 
 ### 1. Start the Backend Server
-
 First, ensure that the backend server is up and running:
 
     ```bash
