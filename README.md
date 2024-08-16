@@ -32,7 +32,6 @@ Follow these steps to get the project up and running on your local machine:
    ```bash
    git clone https://github.com/sidselothcodes/Blog-API-Website.git
 
-
 2. **Navigate to the project directory**:
 
    ```bash
@@ -52,5 +51,21 @@ Once you have completed the installation steps, follow the instructions below to
 
 First, ensure that the backend server is up and running:
 
-```bash
-npm run start:server
+    ```bash
+    npm run start:server
+
+This command will start the backend API server. The server typically runs on http://localhost:4000 or the port specified in your configuration.
+
+2. Start the Frontend Application
+Next, start the frontend application:
+
+    ```bash
+    npm run start:client
+    
+This command will start the frontend development server. By default, the frontend runs on http://localhost:3000.
+
+3. Access the Application
+Once both the backend and frontend servers are running, open your web browser and navigate to:
+
+   ```arduino
+   http://localhost:3000
